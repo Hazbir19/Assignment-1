@@ -292,3 +292,75 @@ body {
   text-decoration-line: underline;
   align-items: start;
 }
+.support-container {
+  padding: 64px 48px;
+}
+.support-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./assets/handshake.jpg");
+  padding: 64px;
+  border-radius: 16px;
+  /* width: 1140px; */
+  height: 350px;
+  background-position: center;
+}
+.support-title {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.support-descript {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-content {
+  width: 100%;
+}
+#name {
+  margin-top: 24px;
+  margin-right: 25px;
+  padding: 19px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.support-btn {
+  margin-top: 24px;
+  width: 120px;
+  height: 55px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.icon-img {
+  margin-left: 24px;
+}
