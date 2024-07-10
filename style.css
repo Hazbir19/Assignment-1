@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: Azeret Mono;
 }
@@ -90,6 +93,18 @@ body {
   padding: 21px 24px 21px 24px;
   margin-top: 50px;
   margin-bottom: 45px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+.banner-btn > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   font-family: Azeret Mono;
   font-size: 20px;
